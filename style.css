@@ -1,0 +1,109 @@
+/* Reset styles */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, li, form, label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: hsl(213.33deg 24.32% 7.25%);
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif; /* Use your preferred font */
+}
+
+.container {
+  width: 680px;
+  background-color: #1c1f26;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 0 10px #ce3df3;
+}
+
+header {
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textarea {
+  text-align: center;
+}
+
+.hadis {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature i {
+  margin-right: 10px;
+}
+
+.newb {
+  color: #eee;
+  border: 1px solid #010000;
+  background-color: #ce3df3;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.newb:hover {
+  border: 1px solid #ce3df3;
+  background-color: rgb(14 18 23);
+  color: #fff;
+  transition-duration: 0.5s;
+}
+
+/* CSS */
+/* CSS */
+.feature {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.sound, .stop {
+  color: #ce3df3;
+  cursor: pointer;
+  margin-right: 10px; /* Add some space between the icons */
+}
+
+.newb {
+  cursor: pointer;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
